@@ -17,7 +17,6 @@
  currently it will only repeats over an array 'itemAlias in arrayName'
  Author: Aslam Ahammed
 */
-Array.prototype.contains = function(x){ var c=!1; return this.forEach(function(a){c=c||a==x;}),c; };
 (function(angular, window, undefined) {
 	'use strict';
 
